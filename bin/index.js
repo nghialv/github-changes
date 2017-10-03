@@ -157,7 +157,7 @@ var currentDate = moment();
 
 var github = new GithubApi({
   version: '3.0.0'
-, timeout: 10000
+, timeout: 60000
 , protocol: 'https'
 , pathPrefix: opts['path-prefix']
 , host: opts.host
